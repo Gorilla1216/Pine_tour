@@ -223,6 +223,9 @@ body {
   padding-left: 30px;
   padding-right: 30px;
 }
+.day_1 div p {
+  margin-top: -10px;
+}
 .day_1 span {
   font-family: Montserrat;
   font-weight: 400;
@@ -373,15 +376,17 @@ outline: 5px solid #ffffff;
 .plan_1 {
   width: 384px;
   height: 527px;
+  position: relative;
   background-color: #fafbfc;
   border-radius: 50px;
 }
-.plan_1 img {
+
+.price img {
   width: 36px;
   height: 36px;
-
+  margin-top: -10px;
 }
-.plan_1 span {
+.price{
   font-family: Inter;
   font-weight: 500;
   font-style: Medium;
@@ -391,19 +396,187 @@ outline: 5px solid #ffffff;
   display: flex;
   align-items:flex-start;
   justify-content: flex-start;
-  padding-top: 60px 0 0 30px
-
+  gap: 10px;
+  padding: 50px 0 0 30px
+}
+.dollar {
+  
+  padding: 15px 0 0 30px;
+}
+.dollar h1 {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin-top: -1px;
+}
+.dollar p {
+  margin-top: -10px;
+  font-family: Inter;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: bottom;
+  color: #919191;
+}
+.advantages {
+  margin-top: -10px;
+  width: 336px;
+  height: 180px;
+  padding: 15px 0 0 30px;
 
 }
+.advantages h1 {
+  font-family: Inter;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  padding-left: 24px;
+}
+.advantages img {
+  top: -20px;
+}
+.advantages p {
+  font-family: Inter;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 14px;
+  line-height: 2;
+  letter-spacing: 0%;
+}
+.button_1{
+  margin-top: 60px;
+  width: 336px;
+  height: 48px;
+  border: 1px solid #a4d1e2;
+  background-color: #a4d1e2;
+  color: #000000;
+  border-radius: 20px;
+  margin-left: 24px;
+  font-family: Inter;
+  font-weight: 600;
+  font-style: Semi Bold;
+  font-size: 16px;
+  line-height: 20px;
+}
+
 .plan_2 {
   width: 384px;
   height: 527px;
   background-color: #fafbfc;
   border-radius: 50px;
 }
+.popular {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.popular span {
+  margin-top: -13px;
+  width: 91px;
+  height: 27px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #6972b5;
+  color: #fafbfc;  
+  border-radius: 20px;
+  font-family: Inter;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+.plan_1:hover {
+  box-shadow: 5px 10px 8px 10px #585858;
+}
+.price_plan:has(.plan_1:hover) .button_1:hover{
+  background-color: rgba(24, 24, 27, 0.9);
+  color: #fafafa;
+}
+.plan_2:hover {
+  box-shadow: 5px 10px 8px 10px #585858;
+}
+.price_plan:has(.plan_2:hover) .button_1:hover{
+  background-color: rgba(24, 24, 27, 0.9);
+  color: #fafafa;
+}
+
 .plan_3 {
   width: 384px;
   height: 527px;
   background-color: #fafbfc;
   border-radius: 50px;
+}
+.plan_3:hover {
+  box-shadow: 5px 10px 8px 10px #585858;
+}
+.price_plan:has(.plan_3:hover) .button_1:hover{
+  background-color: rgba(24, 24, 27, 0.9);
+  color: #fafafa;
+}
+.foot_bot {
+  margin-top: 300px;
+  width: 1200px;
+  height: 44px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.foot_bot img {
+  width: 101px;
+  height: 35px;
+
+}
+.social_icons {
+  width: 358px;
+  height: 44px;
+  display: flex;
+  gap: 20px;
+}
+.fa-facebook {
+  width: 167px;
+  height: 44px;
+  background-color: #fafbfc;
+  border: 1px solid #fafbfc;
+  border-radius: 20px;
+  color: #6972b5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.fa-facebook p{
+  font-family: Montserrat;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+.fa-instagram{
+  width: 167px;
+  height: 44px;
+  background-color: #fafbfc;
+  border: 1px solid #fafbfc;
+  border-radius: 20px;
+  color: #6972b5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.fa-instagram p{
+  font-family: Montserrat;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
 }
